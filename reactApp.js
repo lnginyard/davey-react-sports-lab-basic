@@ -146,22 +146,22 @@ class Game extends React.Component {
 function App(props) {
   const raccoons = {
     name: 'Russiaville Raccoons',
-    logoSrc: './assets/images/raccoon.png'
+    logoSrc: 'https://raw.githubusercontent.com/p-mayor/davey-react-sports-lab-basic/master/assets/images/raccoon.png'
   }
 
   const squirrels = {
     name: 'Sheridan Squirrels',
-    logoSrc: './assets/images/squirrel.png'
+    logoSrc: 'https://raw.githubusercontent.com/p-mayor/davey-react-sports-lab-basic/master/assets/images/squirrel.png'
   }
 
   const bunnies = {
     name: 'Burlington Bunnies',
-    logoSrc: './assets/images/bunny.png'
+    logoSrc: 'https://raw.githubusercontent.com/p-mayor/davey-react-sports-lab-basic/master/assets/images/bunny.png'
   }
 
   const hounds = {
     name: 'Hammond Hounds',
-    logoSrc: './assets/images/hound.png'
+    logoSrc: 'https://raw.githubusercontent.com/p-mayor/davey-react-sports-lab-basic/master/assets/images/hound.png'
   }
 
   return (
