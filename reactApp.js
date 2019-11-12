@@ -67,8 +67,8 @@ class Game extends React.Component {
       }
     }
 
-    this.shotSound = new Audio('./assets/audio/smb_fireball.wav')
-    this.scoreSound = new Audio('./assets/audio/smb_1-up.wav')
+    this.shotSound = new Audio('https://raw.githubusercontent.com/p-mayor/davey-react-sports-lab-basic/master/assets/audio/smb_fireball.wav')
+    this.scoreSound = new Audio('https://raw.githubusercontent.com/p-mayor/davey-react-sports-lab-basic/master/assets/audio/smb_1-up.wav')
   }
 
   shoot = (team) => {
